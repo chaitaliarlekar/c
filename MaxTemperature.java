@@ -1,7 +1,7 @@
 package com.nosql.ques;
 
-//cc MaxTemperature Application to find the maximum temperature in the weather dataset
-//vv MaxTemperature
+
+// MaxTemperature
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -33,4 +33,4 @@ public class MaxTemperature {
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
 	}
 }
-//^^ MaxTemperature
+// MaxTemperature
