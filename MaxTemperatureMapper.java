@@ -1,7 +1,7 @@
 package com.nosql.ques;
 
-//cc MaxTemperatureMapper Mapper for maximum temperature example
-//vv MaxTemperatureMapper
+
+//MaxTemperatureMapper
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;
@@ -30,4 +30,4 @@ public class MaxTemperatureMapper extends Mapper<LongWritable, Text, Text, IntWr
 		}
 	}
 }
-//^^ MaxTemperatureMapper
+//MaxTemperatureMapper
