@@ -1,7 +1,7 @@
 package com.nosql.ques;
 
-//cc MaxTemperatureReducer Reducer for maximum temperature example
-//vv MaxTemperatureReducer
+
+// MaxTemperatureReducer
 import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -20,4 +20,4 @@ public class MaxTemperatureReducer extends Reducer<Text, IntWritable, Text, IntW
 		context.write(key, new IntWritable(maxValue));
 	}
 }
-//^^ MaxTemperatureReducer
+//MaxTemperatureReducer
