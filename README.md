@@ -1,4 +1,4 @@
-# c
+# c LAB-01
 
 2. Download source code and data of maximum temperature problem discussed in the lecture, and run the program on your hadoop setup.
 Source code: https://github.com/tomwhite/hadoop-book/tree/master/ch02-mr-intro/src/main/java
